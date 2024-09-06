@@ -73,24 +73,6 @@ export default function FetchDataSteps() {
         </p>
         <CodeBlock code={create} />
       </TutorialStep>
-
-      <TutorialStep title="Query Supabase data from Next.js">
-        <p>
-          To create a Supabase client and query data from an Async Server
-          Component, create a new page.tsx file at{" "}
-          <span className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xs font-medium text-secondary-foreground border">
-            /app/notes/page.tsx
-          </span>{" "}
-          and add the following.
-        </p>
-        <CodeBlock code={server} />
-        <p>Alternatively, you can use a Client Component.</p>
-        <CodeBlock code={client} />
-      </TutorialStep>
-
-      <TutorialStep title="Build in a weekend and scale to millions!">
-        <p>You're ready to launch your product to the world! 🚀</p>
-      </TutorialStep>
     </ol>
   );
 }

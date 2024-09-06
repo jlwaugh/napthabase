@@ -1,44 +1,38 @@
-import NextLogo from "./next-logo";
-import SupabaseLogo from "./supabase-logo";
+import NapthaLogo from "./naptha-logo";
 
 export default function Header() {
   return (
     <div className="flex flex-col gap-16 items-center">
       <div className="flex gap-8 justify-center items-center">
         <a
-          href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
+          href="https://naptha.ai"
           target="_blank"
           rel="noreferrer"
         >
-          <SupabaseLogo />
-        </a>
-        <span className="border-l rotate-45 h-6" />
-        <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-          <NextLogo />
+          <NapthaLogo />
         </a>
       </div>
-      <h1 className="sr-only">Supabase and Next.js Starter Template</h1>
-      <p className="text-3xl lg:text-4xl !leading-tight mx-auto max-w-xl text-center">
-        The fastest way to build apps with{" "}
+      <h1 className="sr-only">Naptha Hub</h1>
+      <p className="text-2xl lg:text-3xl !leading-tight mx-auto max-w-xl text-center">
+        Read the{" "}
         <a
-          href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
+          href="https://docs.naptha.ai"
           target="_blank"
           className="font-bold hover:underline"
           rel="noreferrer"
         >
-          Supabase
+          docs
         </a>{" "}
-        and{" "}
+        and watch this{" "}
         <a
-          href="https://nextjs.org/"
+          href="https://www.youtube.com/watch?v=nzV04zOA0f0"
           target="_blank"
           className="font-bold hover:underline"
           rel="noreferrer"
         >
-          Next.js
-        </a>
+          demo
+        </a>!
       </p>
-      <div className="w-full p-[1px] bg-gradient-to-r from-transparent via-foreground/10 to-transparent my-8" />
     </div>
   );
 }
